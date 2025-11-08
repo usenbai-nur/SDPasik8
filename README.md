@@ -15,16 +15,16 @@ The Visitor pattern allows you to add new operations to existing object structur
 ```
 src/
 ├── model/
-│   ├── Car.java              # Interface for all car parts
-│   ├── Engine.java           # Engine component
-│   ├── Wheel.java            # Wheel component
-│   ├── Body.java             # Body component
-│   └── Brake.java            # Brake component
+│   ├── Car.java             
+│   ├── Engine.java          
+│   ├── Wheel.java    
+│   ├── Body.java          
+│   └── Brake.java           
 ├── visitor/
-│   ├── CarVisitor.java       # Visitor interface
-│   ├── ServiceVisitor.java   # Performs service operations
-│   └── PriceVisitor.java     # Calculates service costs
-└── Main.java                 # Application entry point
+│   ├── CarVisitor.java       
+│   ├── ServiceVisitor.java   
+│   └── PriceVisitor.java     
+└── Main.java                 
 ```
 
 ##  Components
